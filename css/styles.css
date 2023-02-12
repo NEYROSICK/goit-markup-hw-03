@@ -1,0 +1,147 @@
+:root {
+  --clr-primary: #434455;
+  --clr-primary-inverted: #e7e9fc;
+  --clr-secondary: #2e2f42;
+  --clr-secondary-inverted: #fff;
+  --clr-brand: #4d5ae5;
+  --clr-brand-interaction: #404bbf;
+  --clr-brand-inverted: #f4f4fd;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--clr-primary);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.34;
+  text-transform: uppercase;
+}
+
+.logo-dark {
+  color: var(--clr-secondary);
+}
+
+.logo-light {
+  color: var(--clr-brand-inverted);
+}
+
+.logo-decor {
+  color: var(--clr-brand);
+}
+
+.item-list {
+  list-style-type: none;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: var(--clr-secondary);
+}
+
+.contact-link {
+  font-style: normal;
+  color: inherit;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--clr-brand-interaction);
+}
+
+.hero-section {
+  background-color: var(--clr-secondary);
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  color: var(--clr-secondary-inverted);
+}
+
+.order-button {
+  background-color: var(--clr-brand);
+  color: var(--clr-secondary-inverted);
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: var(--clr-brand-interaction);
+}
+
+.main-section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--clr-secondary);
+}
+
+.main-section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--clr-secondary);
+}
+
+.team-section {
+  background-color: var(--clr-brand-inverted);
+}
+
+.team-member-card {
+  background-color: var(--clr-secondary-inverted);
+}
+
+.footer-background {
+  background-color: var(--clr-secondary);
+}
+
+.inverted-text {
+  color: var(--clr-primary-inverted);
+}
+
+.filter-button {
+  background-color: var(--clr-brand-inverted);
+  color: var(--clr-brand);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  border: 1px solid var(--clr-primary-inverted);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background: var(--clr-brand-interaction);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: 1px solid var(--clr-brand-interaction);
+  color: var(--clr-secondary-inverted);
+}
+
+.filter-card {
+  text-decoration: none;
+}
