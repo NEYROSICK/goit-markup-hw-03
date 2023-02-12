@@ -203,6 +203,7 @@ a {
 
 .services-list {
   display: flex;
+  margin: 0 auto;
   flex-wrap: wrap;
   gap: 24px;
 }
@@ -221,6 +222,7 @@ a {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .team-member-card {
