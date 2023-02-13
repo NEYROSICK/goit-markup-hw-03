@@ -192,6 +192,13 @@ a {
 .strengths-list {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.strengths-item {
+  flex-basis: calc((100% - 72px) / 4);
+  min-width: 170px;
 }
 
 /* Services section */
