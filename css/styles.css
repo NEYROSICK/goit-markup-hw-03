@@ -82,6 +82,7 @@ a {
 .logo-light {
   color: var(--clr-brand-inverted);
   display: block;
+  margin-top: 0;
   margin-bottom: 16px;
 }
 
